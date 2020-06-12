@@ -6,7 +6,7 @@
 	$dig5 = 0;
 	$dig6 = 0;
 	$dig7 = 0;
-	for( $i = 0; $i <= 9; $i++) {
+	for( $i = 0; $i <= 99; $i++) {
 		$pre1 = rand(0,2);
 		$pre2 = rand(0,2);
 		$pre3 = rand(0,2);
