@@ -51,6 +51,6 @@
 			$sevenkey = $dig1 + $dig2 + $dig3 + $dig4 + $dig5 + $dig6 + $dig7;
 			$sevenmod = $sevenkey % 7;
 		}
-		print($pre1 . $pre2 . $pre3 . "-" . $dig1 . $dig2 . $dig3 . $dig4 . $dig5 . $dig6 . $dig7 . '\n');	
+		print($pre1 . $pre2 . $pre3 . "-" . $dig1 . $dig2 . $dig3 . $dig4 . $dig5 . $dig6 . $dig7 . '<br>');	
 	}
 ?>

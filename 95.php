@@ -43,28 +43,28 @@
 		$dayofstr = strval($dayofyear);
 		if (strlen($dayofstr) == 1) {
 			if (strlen(strval($lastdig)) == 1) {
-				echo("00" . $dayofstr . $year . "-OEM-0" . $dig1 . $dig2 . $dig3 . $dig4 . $dig5 . $dig6 . "-00" . $lastdig  . "\n");
+				echo("00" . $dayofstr . $year . "-OEM-0" . $dig1 . $dig2 . $dig3 . $dig4 . $dig5 . $dig6 . "-00" . $lastdig  . "<br>");
 			} elseif (strlen(strval($lastdig)) == 2) {
-				echo("00" . $dayofstr . $year . "-OEM-0" . $dig1 . $dig2 . $dig3 . $dig4 . $dig5 . $dig6 . "-0" . $lastdig . "\n");	
+				echo("00" . $dayofstr . $year . "-OEM-0" . $dig1 . $dig2 . $dig3 . $dig4 . $dig5 . $dig6 . "-0" . $lastdig . "<br>");	
 			} else {
-				echo("00" . $dayofstr . $year . "-OEM-0" . $dig1 . $dig2 . $dig3 . $dig4 . $dig5 . $dig6 . "-" . $lastdig . "\n");
+				echo("00" . $dayofstr . $year . "-OEM-0" . $dig1 . $dig2 . $dig3 . $dig4 . $dig5 . $dig6 . "-" . $lastdig . "<br>");
 			}
 		} elseif (strlen($dayofstr) == 2) {
 			if (strlen(strval($lastdig)) == 1) {
 
-				echo("0" . $dayofstr . $year . "-OEM-0" . $dig1 . $dig2 . $dig3 . $dig4 . $dig5 . $dig6 . "-00" . $lastdig . "\n");
+				echo("0" . $dayofstr . $year . "-OEM-0" . $dig1 . $dig2 . $dig3 . $dig4 . $dig5 . $dig6 . "-00" . $lastdig . "<br>");
 			} elseif (strlen(strval($lastdig)) == 2) {
-				echo("0" . $dayofstr . $year . "-OEM-0" . $dig1 . $dig2 . $dig3 . $dig4 . $dig5 . $dig6 . "-0" . $lastdig . "\n");
+				echo("0" . $dayofstr . $year . "-OEM-0" . $dig1 . $dig2 . $dig3 . $dig4 . $dig5 . $dig6 . "-0" . $lastdig . "<br>");
 			} else {
-				echo("0" . $dayofstr . $year . "-OEM-0" . $dig1 . $dig2 . $dig3 . $dig4 . $dig5 . $dig6 . "-" . $lastdig . "\n");
+				echo("0" . $dayofstr . $year . "-OEM-0" . $dig1 . $dig2 . $dig3 . $dig4 . $dig5 . $dig6 . "-" . $lastdig . "<br>");
 			}
 		} else {
 			if (strlen(strval($lastdig)) == 1) {
-				echo($dayofstr . $year . "-OEM-0" . $dig1 . $dig2 . $dig3 . $dig4 . $dig5 . $dig6 . "-00" . $lastdig . "\n");
+				echo($dayofstr . $year . "-OEM-0" . $dig1 . $dig2 . $dig3 . $dig4 . $dig5 . $dig6 . "-00" . $lastdig . "<br>");
 			} elseif (strlen(strval($lastdig)) == 2) {
-				echo($dayofstr . $year . "-OEM-0" . $dig1 . $dig2 . $dig3 . $dig4 . $dig5 . $dig6 . "-0" . $lastdig . "\n");
+				echo($dayofstr . $year . "-OEM-0" . $dig1 . $dig2 . $dig3 . $dig4 . $dig5 . $dig6 . "-0" . $lastdig . "<br>");
 			} else {
-				echo($dayofstr . $year . "-OEM-0" . $dig1 . $dig2 . $dig3 . $dig4 . $dig5 . $dig6 . "-" . $lastdig . "\n");
+				echo($dayofstr . $year . "-OEM-0" . $dig1 . $dig2 . $dig3 . $dig4 . $dig5 . $dig6 . "-" . $lastdig . "<br>");
 			}
 		}
 	}
