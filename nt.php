@@ -1,5 +1,5 @@
 <?php
-	$amount == 100; /*if you want to generate more keys, change this value*/
+	$amount = 100; /*if you want to generate more keys, change this value*/
 	for( $i = 0; $i <= $amount - 1; $i++) { /*loops the process x amount of times*/
 		$pre1 = rand(0,9); /*picks the initial three numbers*/
 		$pre2 = rand(0,9);
