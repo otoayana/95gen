@@ -1,5 +1,6 @@
 <?php
-	for( $i = 0; $i <= 99; $i++) {
+	$amount = 100;
+	for( $i = 0; $i <= $amount - 1; $i++) {
 		$dayofyear = rand(001,366);
 		$years = array("95", "96", "97", "98", "99", "00", "01", "02", "03");
 		$year = $years[mt_rand(0, count($years) - 1)];
