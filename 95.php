@@ -3,8 +3,9 @@
 		$dayofyear = rand(001,366);
 		$years = array("95", "96", "97", "98", "99", "00", "01", "02", "03");
 		$year = $years[mt_rand(0, count($years) - 1)];
-		$sevenmod = 1;	
-		while ($sevenmod >= 1) {
+		$sevenmod = 1;
+		$lastnum = 0;
+		while ($sevenmod >= 1 or $lastnum >= 8 or $lastnum == 0) {
 			$dig1 = 0;
 			$dig2 = 0;
 			$dig3 = 0;
@@ -13,7 +14,7 @@
 			$dig6 = 0;
 			for( $u = 0; $u <= 5; $u++ ) {
 				$dig = 0;
-				$dig = rand(1,7);
+				$dig = rand(0,9);
 				if ($dig1 !== 0) {
 					if ($dig2 !== 0) {
 						if ($dig3 !== 0) {
@@ -38,6 +39,7 @@
 			}
 			$sevenkey = $dig1 + $dig2 + $dig3 + $dig4 + $dig5 + $dig6;
 			$sevenmod = $sevenkey % 7;
+			$lastnum = $dig6;
 		}
 		$lastdig = rand(1,999);
 		$dayofstr = strval($dayofyear);
