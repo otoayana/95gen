@@ -3,9 +3,12 @@
         <title>95gen</title>
         <style>
             body {
-                background-color: #008081;
+                background-color: #008c8d;
                 color: white;
-            }
+	    }
+	    a {
+		color: white;
+	    }
         </style>
     </head>
     <body>
