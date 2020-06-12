@@ -11,7 +11,7 @@
 		}
 		$sevenmod = 1;
 		$lastdig = 0;
-		while ($sevenmod >= 1 or $lastchar >= 8 or $lastchar == 0) {
+		while ($sevenmod >= 1 or $lastdig >= 8 or $lastdig == 0) {
 			$dig1 = 0;
 			$dig2 = 0;
 			$dig3 = 0;
