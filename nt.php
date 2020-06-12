@@ -50,7 +50,7 @@
 			}
 			$sevenkey = $dig1 + $dig2 + $dig3 + $dig4 + $dig5 + $dig6 + $dig7; /*checks if digit is valid by adding them all up and getting mod*/
 			$sevenmod = $sevenkey % 7;
-			$lastchar = $dig7; /*gets the last character for checking if it is 8 or zero*/
+			$lastdig = $dig7; /*gets the last character for checking if it is 8 or zero*/
 		}
 		if ($pre1 == 0 and $pre2 == 0 and $pre3 == 0) { /*checks for zeroes*/
 			$prechars = "000";
