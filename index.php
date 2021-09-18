@@ -1,28 +1,30 @@
 <html>
   <head>
     <title>95gen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
       body {
-        background-color: #008c8d;
-        color: white;
+        background-color: #94c6ff;
+	color: black;
+	font-family: monospace;
+	padding: 10%;
+	text-align: center;
+	font-size: 125%;
       }
       a {
-        color: white;
+        color: black;
+	text-decoration: none;
       }
     </style>
   </head>
-  <body>
-    <h1>Welcome to 95gen!</h1>
-    <p>
-      95gen lets you generate free, valid Windows 95, NT 4.0 and Office 95 keys
-      on your browser.<br />Not only is it free, but it's
-      <a href="https://github.com/mintphin/95gen">open source</a>, so you can
-      analyze the code if you please.
-    </p>
-    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F68.media.tumblr.com%2Fd11d6cf679de95e834a4c5a0138ffd8d%2Ftumblr_obn4r7Vloz1s8ljwmo1_500.gif&f=1&nofb=1" alt="" />
+  <body> 
+    <img src="img/logo.png" alt="" width=256px/>
+    <br>
+    <br>
+    <p><b>An online keygen for Windows 9x / Office 9x</b></p>
     <nav>
-      <a href="95.php">OEM (Only Win95)</a> |
-      <a href="nt.php">CD Key (Win95, Office 95 and WinNT 4)</a>
+      <a href="95.php">OEM</a> |
+      <a href="nt.php">CD</a>
     </nav>
   </body>
 </html>
